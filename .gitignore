@@ -1,0 +1,24 @@
+# Node.js modules and dependencies
+node_modules/
+
+# Puppeteer browser downloads (optional, but common to ignore)
+.puppeteer/
+
+# Puppeteer test screenshots
+Results/*.png
+
+# Lighthouse reports
+Results/report.html
+
+# Environment variables (make sure you're using dotenv or similar)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: ignore VS Code settings and extensions
+.vscode/
